@@ -51,7 +51,7 @@ def showfit(i,a,b):
     plt.plot(a,color="green")
     plt.savefig(str(i)+"fit.png")
 
-df=pd.read_csv("imp.csv")
+df=pd.read_csv("data.csv")
 out=open("res.txt","w")
 showpic(df)
 for i in range(1,2):
